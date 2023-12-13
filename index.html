@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Master</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="todo">
+        <section>
+            <h1>Todo list</h1>
+            <form id="form">
+                <p>
+                    <label for="title">
+                        <span>Title <strong><abbr title="required">*</abbr></strong></span>
+                       <b> <input type="text" id="title" name="title"  /></b>
+                    </label>
+                </p>
+                <p>
+                    <label for="content">
+                        <span>Content </span>
+                      <b><input type="text" id="content" name="content" /></b>  
+                    </label>
+                </p>
+                <p>
+                    <button id="add-task" type="button">Add task</button>
+                </p>
+            </form>
+        </section>
+    </div>
+    <div id="todos"></div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
+
+
+
